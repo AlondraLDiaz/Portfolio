@@ -1,0 +1,57 @@
+/* nav css */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;   
+  }
+  
+  .div.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+  }
+  
+  
+  
+  nav > ul {
+    width: 50%;
+    margin-left: auto;
+  }
+  
+  nav {
+    width: 73%;
+    padding: 1%;
+ 
+  }
+  
+  /* hero image css */
+  .heroImg {
+    height: 600px;
+    padding: 25px;
+  }
+  
+  .content {
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .content > img{
+    width: 50%;
+  }
+  
+  /* footer css  */
+  footer {
+    background-color: #373738;
+    padding: 5px;
+  }
+  
+  footer > ul {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  li {
+    padding: 5px;
+  }
+  
