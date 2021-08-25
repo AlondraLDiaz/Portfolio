@@ -11,7 +11,6 @@
   }
   
   
-  
   nav > ul {
     width: 50%;
     margin-left: auto;
@@ -25,6 +24,7 @@
   
   /* hero image css */
   .heroImg {
+
     height: 600px;
     padding: 25px;
   }
@@ -40,6 +40,16 @@
     width: 50%;
   }
   
+  .orange-arrow{
+       width: 100px;
+       height: 100px;
+    background-color: orange;
+    margin: 0 auto;
+    
+
+  }
+
+
   /* footer css  */
   footer {
     background-color: #373738;
