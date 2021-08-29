@@ -45,12 +45,54 @@
        height: 100px;
     background-color: orange;
     margin: 0 auto;
-    
+
 
   }
 
 
-  /* footer css  */
+/* my skill CSS */
+
+.flexContainer{
+    display: flex;
+    width: 33%;
+    margin: 0 auto;
+    padding: 80px;
+    flex-direction: row;
+    background-color: red;
+}
+
+ /* my work CSS */
+
+ .workGrid{
+     display:grid;
+ }
+
+.item1{
+    grid-area: myArea;
+}
+
+.grid-container{
+display: grid;
+grid-template-areas: 'myArea1 myArea2 myArea3';
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* footer css */
   footer {
     background-color: #373738;
     padding: 5px;
