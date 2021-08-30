@@ -45,10 +45,7 @@
        height: 100px;
     background-color: orange;
     margin: 0 auto;
-
-
   }
-
 
 /* my skill CSS */
 
@@ -57,53 +54,54 @@
     width: 33%;
     margin: 0 auto;
     padding: 80px;
-    flex-direction: row;
-    background-color: red;
+    flex-direction: column;
 }
 
  /* my work CSS */
 
+h1{
+    text-align: center;
+}
+
  .workGrid{
      display:grid;
+     grid-template-areas: 'myArea1';
+     grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 30px;
  }
 
 .item1{
-    grid-area: myArea;
+    grid-area: 'myArea1';
+    margin: 0 auto;
 }
 
-.grid-container{
-display: grid;
-grid-template-areas: 'myArea1 myArea2 myArea3';
+H3{
+    text-align: center;
+}
 
+    
+/* footer css */
+footer {
+background-color: #373738;
+padding: 5px;
+}
+
+footer > ul {
+display: inline-block;
+vertical-align: top;
+}
+
+li {
+padding: 5px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* footer css */
-  footer {
-    background-color: #373738;
-    padding: 5px;
-  }
-  
-  footer > ul {
-    display: inline-block;
-    vertical-align: top;
-  }
-  
-  li {
-    padding: 5px;
-  }
-  
+@media only screen and (max-width:600) {
+    .flexContainer{
+        display: flex;
+        width: 100vw;
+        margin: 0 auto;
+        flex-direction: column;
+    }       
+ }
