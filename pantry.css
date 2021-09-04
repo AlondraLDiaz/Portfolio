@@ -1,0 +1,58 @@
+/* nav css */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;   
+  }
+  
+  .div.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+  }
+  
+  
+  nav > ul {
+    width: 50%;
+    margin-left: auto;
+  }
+  
+  nav {
+    width: 73%;
+    padding: 1%;
+ 
+  }
+  
+ /* overview css */
+
+
+
+
+
+
+    
+/* footer css */
+footer {
+background-color: #F7BC54;
+padding: 5px;
+}
+
+footer > ul {
+display: inline-block;
+vertical-align: top;
+font-family: sans-serif;
+font-style: normal;
+}
+
+li {
+padding: 5px;
+}
+
+
+@media only screen and (max-width:600) {
+    .flexContainer{
+        display: flex;
+        width: 100vw;
+        margin: 0 auto;
+        flex-direction: column;
+    }       
+ }

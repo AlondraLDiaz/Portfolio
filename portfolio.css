@@ -24,9 +24,10 @@
   
   /* hero image css */
   .heroImg {
-
     height: 600px;
-    padding: 25px;
+    padding: 80px;
+    justify-content: flex-end;
+   
   }
   
   .content {
@@ -39,41 +40,60 @@
   .content > img{
     width: 50%;
   }
-  
+
+/* Hero content css */
+
+  h1{
+    text-align: left;
+    font-size: 35pt;
+
+}
+
+.content > p{
+  text-align: left;
+  font-size: 20pt;
+}
+
   .orange-arrow{
        width: 100px;
        height: 100px;
-    background-color: orange;
+    background-color:#F7BC54;
     margin: 0 auto;
   }
 
-/* my skill CSS */
-
-.flexContainer{
-    display: flex;
-    width: 33%;
-    margin: 0 auto;
-    padding: 80px;
-    flex-direction: column;
-}
-
  /* my work CSS */
 
-h1{
-    text-align: center;
+
+.caseStudy {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: blue;
+  padding: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
+.caseStudy-img {
+justify-content: left;
+background-color: yellow;
+}
+
+
+
 
  .workGrid{
      display:grid;
      grid-template-areas: 'myArea1';
      grid-template-columns: 1fr;
     margin: 0 auto;
-    padding: 30px;
+    padding: 100px;
+    background-color: red;
  }
 
 .item1{
-    grid-area: 'myArea1';
-    margin: 0 auto;
+    display: grid;
+    margin: 10px;
+    background-color: forestgreen;
 }
 
 H3{
@@ -81,20 +101,35 @@ H3{
 }
 
     
+
+
+
+
+
+
+
+
+
+
+
 /* footer css */
 footer {
-background-color: #373738;
+background-color: #F7BC54;
 padding: 5px;
 }
 
 footer > ul {
-display: inline-block;
-vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
 li {
 padding: 5px;
 }
+
+
 
 
 @media only screen and (max-width:600) {
