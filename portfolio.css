@@ -1,27 +1,29 @@
 /* nav css */
-.inline-block {
-    display: inline-block;
-    vertical-align: top;   
-  }
-  
-  .div.logo {
-    width: 23%;
+
+  .nav-logo {
+    width: 10%;
     padding: 1%;
-    text-align: center;
+    margin: 1%;
+    text-align: center; 
   }
-  
-  
-  nav > ul {
-    width: 50%;
-    margin-left: auto;
-  }
-  
+
   nav {
-    width: 73%;
-    padding: 1%;
- 
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    margin-right: 3%;
+    
   }
-  
+
+a {
+  color: #F7BC54;
+}
+a:hover {
+  color:#F7BC54;
+  font-weight: bold;
+
+}
+
+
   /* hero image css */
   .heroImg {
     height: 600px;
@@ -34,6 +36,7 @@
     width: 500px;
     margin: 0 auto;
     padding: 5px;
+    justify-content: right;
     text-align: center;
   }
 
@@ -54,20 +57,14 @@
   font-size: 20pt;
 }
 
-  .orange-arrow{
-       width: 100px;
-       height: 100px;
-    background-color:#F7BC54;
-    margin: 0 auto;
-  }
-
+ 
  /* my work CSS */
 
 
 .caseStudy {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-color: blue;
+  background-color:#F7BC54;
   padding: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -78,13 +75,10 @@ justify-content: left;
 background-color: yellow;
 }
 
-
-
-
  .workGrid{
      display:grid;
      grid-template-areas: 'myArea1';
-     grid-template-columns: 1fr;
+     grid-template-columns: 2fr;
     margin: 0 auto;
     padding: 100px;
     background-color: red;
@@ -102,32 +96,15 @@ H3{
 
     
 
-
-
-
-
-
-
-
-
-
-
 /* footer css */
-footer {
-background-color: #F7BC54;
-padding: 5px;
-}
 
-footer > ul {
-  display: inline-block;
-  vertical-align: top;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
-}
+.footer {
+  height: 5px;
+  background-color: #F7BC54;
+  opacity: 0.5;
+  padding: 5%;
+  }
 
-li {
-padding: 5px;
-}
 
 
 
