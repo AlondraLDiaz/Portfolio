@@ -1,0 +1,127 @@
+.about-container{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.about-page{
+    width: 100vw;
+    /* because the nav is 15vh */
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+
+.center-block{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 70%;
+    background-color: violet;
+    position:relative;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-self: flex-start;
+    background-color: lightyellow;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.about > h1 {
+    align-self: top;
+}
+
+.block-pic-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.about-pic{
+    height: 490px;
+    width: 751.96px;
+    padding: 10px;
+}
+
+
+.block-yellow{
+    background-color: #FFA505;
+    height: 490px;
+    width: 780px;
+    transform: translate(5%, -110%);
+    box-shadow: 3px 5px 5px grey;
+}
+
+.block-orange{
+    background-color: #FFE505;
+    height: 490px;
+    width: 780px;
+    transform: translate(0%, -205%);
+    box-shadow: 0px 5px 5px grey;
+
+
+}
+
+.about-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.scroll-pic{
+    height: 60%;
+    background-color: magenta;
+    z-index: 1;
+
+}
+
+.about-scroll{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.scroll-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    background-color: #ffa3055e;
+    padding: 50px;
+
+}
+
+.scroll-pic-container{
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 60%;
+}
+
+.block-yellow-scroll{
+    background-color: #FFA505;
+    height: 550px;
+    width: 533px;
+    transform: translate(0%, 0%);
+    box-shadow: 3px 5px 5px grey;
+}
+
+.block-orange-scroll{
+    background-color: #FFE505;
+    height: 550px;
+    width: 533px;
+    transform: translate(0%, 600%);
+    box-shadow: 0px 5px 5px grey;
+
+
+}
