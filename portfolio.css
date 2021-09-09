@@ -20,19 +20,23 @@ a {
 a:hover {
   color:#F7BC54;
   font-weight: bold;
-
 }
 
   /* hero image css */
 
-  
-  .content {
-      margin: 0 auto;
-      padding: 5px;
-      text-align: center
+  .heroImg{
+text-align: right;
+margin-right: 340px;
+margin-top: 120px;
+
   }
-
-
+  .content {
+      padding: 5px;
+      justify-content: center;
+      font-size: 20pt;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+  }
 
 .orangeArrow {
  justify-content: center;
@@ -52,16 +56,16 @@ a:hover {
 
 /* Hero content css */
 
-  h1{
+ h1{
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 35pt;
+    font-size: 45pt;
 
 }
 
-.content > p{
-  text-align: center;
-  font-size: 20pt;
+content > p{
+  text-align: left;
+  font-size: 45pst;
   font-family: 'Raleway', sans-serif;
 }
 
