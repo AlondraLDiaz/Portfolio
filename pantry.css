@@ -172,14 +172,12 @@ ol {
 }
 
 
-
-
 /* footer css */
 
 .footer {
   height: 5px;
-  background-color: #FFA505;
-  opacity: 0.2;
+  background-color:#F7BC54;
+  opacity: 0.3;
   padding: 5%;
   }
   
