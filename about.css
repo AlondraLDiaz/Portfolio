@@ -1,3 +1,27 @@
+/* nav css */
+
+.nav-logo {
+    width: 10%;
+    padding: 1%;
+    margin: 1%;
+    text-align: center; 
+  }
+
+  nav {
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    margin-right: 3%; 
+  }
+
+a {
+  color: #F7BC54;
+}
+a:hover {
+  color:#F7BC54;
+  font-weight: bold;
+}
+
+ /* About INTRO css */
 .about-container{
     width: 100vw;
     display: grid;
@@ -38,6 +62,7 @@
 
 .about > h1 {
     align-self: top;
+    text-align: left;
 }
 
 .block-pic-container {
@@ -86,17 +111,29 @@
 
 }
 
+ /* About Me Profile */
+
 .about-scroll{
     display: grid;
     grid-template-columns: 1fr;
+}
+
+h3{
+    text-align: left;
+}
+
+.hobbyList{
+    text-align: left;
+    justify-content: left;
 }
 
 .scroll-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 100px;
-    background-color: #ffa3055e;
+    background-color: #fce8bf;
     padding: 50px;
+    text-align: left;
 
 }
 
@@ -105,7 +142,7 @@
     margin: 50px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    height: 60%;
+    height: 20%;
 }
 
 .block-yellow-scroll{
@@ -117,7 +154,7 @@
 }
 
 .block-orange-scroll{
-    background-color: #FFE505;
+    background-color:#F7BC54;
     height: 550px;
     width: 533px;
     transform: translate(0%, 600%);
