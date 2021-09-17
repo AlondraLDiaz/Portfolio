@@ -33,9 +33,7 @@ a:hover {
     height: 500px;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
 }
-
 
 .center-block{
     display: grid;
@@ -47,17 +45,24 @@ a:hover {
 
 .about{
     font-family: 'Raleway', sans-serif;
+    font-size: 17pt;
+    word-spacing: 1.5pt;
+    line-height: 27pt;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-self: flex-start;
     padding: 50px;
     margin-top: 20px;
+
 }
 
 .about > h1 {
+    margin-top: -23%;
+    margin-bottom: 8%;
     align-self: top;
     text-align: left;
+    font-family: 'Raleway', sans-serif;
 }
 
 .block-pic-container {
@@ -67,25 +72,25 @@ a:hover {
 }
 
 .about-pic{
-    height: 490px;
-    width: 751.96px;
-    padding: 10px;
+    height: 500px;
+    width: 755.96px;
+    padding: 6px;
 }
 
 .block-yellow{
     background-color: #FFA505;
-    height: 490px;
-    width: 780px;
-    transform: translate(5%, -110%);
+    height: 500px;
+    width: 795px;
+    transform: translate(5.5%, -113.5%);
     box-shadow: 3px 5px 5px grey;
 }
 
 .block-orange{
     background-color: #FFE505;
-    height: 490px;
-    width: 780px;
-    transform: translate(0%, -205%);
-    box-shadow: 0px 5px 5px grey;
+    height: 500px;
+    width: 771px;
+    transform: translate(3%, -206%);
+    box-shadow: 3px 5px 5px grey;
 }
 
 .about-pic {
@@ -123,14 +128,24 @@ a:hover {
     grid-template-columns: 1fr;
 }
 
-h3{
-    text-align: left;
+p.profileContent{
+    font-family: 'Cabin', sans-serif;
 }
 
-.hobbyList{
+h2{ 
+font-family: 'Raleway', sans-serif;
+font-weight: bolder;
+font-size: 12pt;
+}
+
+ul > .hobbyList {
+    font-family: 'Cabin', sans-serif;
+    font-display: bold;
     text-align: left;
     justify-content: left;
+    margin-left: -10%;
 }
+
 
 .scroll-box {
     display: grid;
@@ -166,6 +181,15 @@ h3{
     box-shadow: 0px 5px 5px grey;
 
 }
+
+/* skills css */
+
+.colSkills{
+grid-template-columns: 2fr 3fr;
+
+}
+
+
 
 
 
