@@ -88,6 +88,14 @@ width: 400px;
 
 }
 
+.caseStudy-blurb{
+margin-left: 45px;
+}
+
+.caseStudy-summary{
+  line-height: 20pt;
+}
+
  .workGrid{
      display:grid;
      grid-template-areas: 'myArea1';
@@ -134,25 +142,28 @@ h4{
 
 footer {
   justify-content: space-evenly;
-  height: 4pt;
   font-size: 11.5pt;
   font-family: 'Raleway', sans-serif;
   color: black;
   background-color:#fdeed4;
-  padding: 8%;
-  flex-wrap: initial;
-  margin-left: 0%;
+  padding: 3%;
   }
   
-.row > .footerContact{
-  justify-content: space-between;
+.footerContact{
+  margin-top: 30px;
+word-spacing: normal;
 }
 
 .footerLogo{
   margin-left: 10%;
-  margin-right: 10%;
+  text-align: center;
+  margin-top: 3%;
+  margin-right: 4%;
 }
 
 .footerSocials{
-  margin-left: 7%;
+  margin-top: 5%;
+  margin-right: 20%;
+  text-align: end;
 }
+
