@@ -26,16 +26,30 @@ a:hover {
 
   /* Intro Section css */
 
+.mainContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+ 
+} 
+
   .alondraElements{
+    position: relative;
+  }
+
+  .alondraImg{
+    margin-left: 25%;
     z-index: 1;
 
   }
-
-
+  .initialBackground{
+    position: absolute;
+    transform: translate(40%, -5%);
+    z-index: -1;
+  }
 
 .alondraText{
-  z-index: 1;
-
+  
 }
 
 
