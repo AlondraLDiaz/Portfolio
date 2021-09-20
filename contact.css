@@ -26,31 +26,37 @@ a:hover {
 
 
 section{
-    background-color:aliceblue;
+    font-family: Raleway, sans-serif;
+    background-color:#fdeed4;
     display: flex;
+    height: 800px;
     margin: 5%;
-    margin-top: 1%;
-    padding: 2%;
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 8%;
+    padding: -1%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    box-shadow: 5px 5px 5px #00000010;
 }
 
 .container{
-    width: 90%;
-    max-width: 500px;
+    width: 95%;
+    max-width: 600px;
     margin-top: 10px;
     padding: 2%;
     background-color: white;
     border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 20px #00000010;
+    box-shadow: 3px 3px 10px #00000010;
 }
 
 .form-group{
 width: 100%;
 margin-top: 20px;
 font-size: 20px;
+border-radius: 3px;
 }
 
 .form-group input,.form-group textarea{
@@ -58,6 +64,7 @@ font-size: 20px;
     padding: 5x;
     font-size: 18px;
     border: 1px solid rgba(128, 128, 128, 0.199);
+    border-radius: 3px;
     margin-top: 5px;
 }
 
@@ -73,7 +80,7 @@ button[type="submit"]{
     font-size: 24px;
     border-radius: 8px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: pink;
+    background-color: #FFA505;
     color: black;
     text-align: center;
     cursor: pointer;
@@ -82,7 +89,7 @@ button[type="submit"]{
 }
 
 button[type="submit"]:hover{
-background-color: fuchsia;
+background-color: #E59200;
 }
 
 #status{
@@ -147,3 +154,4 @@ footer {
     margin-top: 8%;
     margin-right: 10%;
     text-align: end;
+  }
