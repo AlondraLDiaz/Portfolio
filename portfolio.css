@@ -70,6 +70,7 @@ H1{
 
 .sectionArrow{
   text-align: center;
+  margin-top: -4%;
 }
 
 .orangeArrow {
@@ -82,7 +83,7 @@ H1{
 
 @keyframes arrow  {
   0%   {top:0px;}
-  25%  {top:25px;}
+  25%  {top:15px;}
   50%  {top:0px;}
 }
 

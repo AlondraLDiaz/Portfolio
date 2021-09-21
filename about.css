@@ -26,10 +26,11 @@ a:hover {
 .about-container{
     display: grid;
     grid-template-columns: 1fr;
+    margin: 0 auto;
 }
 
 .about-page{
-    margin: 5%;
+    margin: 7%;
     height: 500px;
     justify-content: center;
     align-items: center;
@@ -41,25 +42,35 @@ a:hover {
     justify-content: center;
     align-items: center;
     position:relative;
+    max-width: 500%;
+    height: 450pt;
+    margin: 0%;
 }
 
 .about{
-    font-family: 'Raleway', sans-serif;
-    font-size: 17pt;
-    word-spacing: 1.5pt;
-    line-height: 27pt;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    height: 200pt;
+    width: 347pt;
     align-self: flex-start;
-    padding: 50px;
-    margin-top: 20px;
-
+    padding: 12%;
+    margin-top: 30px;
+    margin-left: 90px;
+    justify-content: right;
 }
 
-.about > h1 {
+.aboutmeText{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17.5pt;
+    word-spacing: 1.5pt;
+    line-height: 27pt;
+    margin: 0%;
+}
+
+
+h1 {
+    font-size: 38pt;
+    font-weight: 45pt;
     margin-top: -23%;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
     align-self: top;
     text-align: left;
     font-family: 'Raleway', sans-serif;
@@ -69,30 +80,32 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .about-pic{
-    height: 500px;
-    width: 755.96px;
-    padding: 6px;
+    height: 400px;
+    width: 600.96px;
+    padding: 8px;
 }
 
 /* orange block */
 
 .block-yellow{
     background-color: #FFA505;
-    height: 500px;
-    width: 795px;
-    transform: translate(5.5%, -113.5%);
+    height: 405px;
+    width: 580px;
+    transform: translate(16%, -113.5%);
     box-shadow: 3px 5px 5px grey;
 }
 
 /* yellow block */
 .block-orange{
     background-color: #FFE505;
-    height: 500px;
-    width: 771px;
-    transform: translate(3%, -206%);
+    height: 395px;
+    width: 585px;
+    transform: translate(8%, -211%);
     box-shadow: 3px 5px 5px grey;
 }
 
@@ -104,10 +117,12 @@ a:hover {
     z-index: 1;
 }
 
+  /* Arrow animation */
 
 .sectionArrow {
-    text-align: center;
-    margin-top: -4%;
+    text-align: center; 
+    margin-top: -11%;
+    margin-bottom: 10%;
   }
   
   .orangeArrow {
@@ -129,21 +144,42 @@ a:hover {
 .about-scroll{
     display: grid;
     grid-template-columns: 1fr;
+    padding: 6%;
+    margin:0 auto;
 }
+
+.profile{
+    margin-top: -13%;
+    text-align: left;
+    margin-left: -13%;
+}
+
 
 .profileContent{
+    font-size: 14pt;
+    font-weight: lighter;
+    line-height: 20pt;
     font-family: 'Cabin', sans-serif;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
-h2{ 
-text-emphasis-color: black;
+.profile.h2{ 
 font-family: 'Raleway', sans-serif;
+font-style:bold;
+font-size: 15pt;
+letter-spacing: 2pt;
+margin-bottom: 3%;
+text-emphasis-color: black;
+
 
 }
 
 p.hobbyList {
+    font-weight: lighter;
     font-family: 'Cabin', sans-serif;
-    font-display: bold;
+    font-size: 14pt;
+    line-height: 21pt;
     text-align: left;
     justify-content: left;
   
@@ -152,14 +188,13 @@ p.hobbyList {
 
 .scroll-box {
     display: grid;
+    flex-direction: column;
     grid-template-columns: 1fr 1fr;
-    margin: 100px;
-    height: 1000px;
     background-color: #fce8bf;
-    padding: 50px;
-    margin-bottom: -5%;
+    box-sizing:inherit;
+    padding: 145px;
     text-align: left;
-
+   
 }
 
 /* Profile Blocks css */
@@ -171,30 +206,30 @@ p.hobbyList {
 }
 
 .scroll-pic{
-    margin-top: 15px;
-    height: 620px;
-    width: 490px;
+    
+    height: 705px;
+    width: 510px;
     display: start;
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    transform: translate(-5%, 0%);
+    transform: translate(8%, -10%);
     z-index: 1;
 }
 
 .block-yellow-scroll{
-    background-color: #FFA505;
-    height: 420px;
-    width: 350px;
-    transform: translate(30%, -70%);
+    background-color: orange;
+    height: 730px;
+    width: 550px;
+    transform: translate(14%, -98%);
     box-shadow: 3px 5px 5px grey;
 }
 
 .block-orange-scroll{
-    background-color:#F7BC54;
-    height: 440px;
-    width: 380px;
-    transform: translate(0%, -180%);
+    background-color: yellow;
+    height: 730px;
+    width: 530px;
+    transform: translate(12%, -204%);
     box-shadow: 0px 5px 5px grey;
 
 }
@@ -205,7 +240,7 @@ p.hobbyList {
     margin-top: 3%;
     margin-left: 2%;
     margin-right: 2%;
-    padding: 5%;
+    padding: 40px;
     background: indigo;
 }
 
@@ -239,13 +274,10 @@ background-color: red;
 }
 
 
-
-
-
-
 /* footer css */
 
 footer {
+    position:sticky;
     justify-content: space-evenly;
     font-size: 11pt;
     font-family: 'Raleway', sans-serif;
@@ -256,13 +288,8 @@ footer {
     
   .footerContact{
   margin-top: 10%;
+   
   }
-
-.emailFooter > p {
-    margin-right: 100%;
-}  
-
-
   
   .footerLogo{
     margin-left: 10%;
@@ -276,5 +303,9 @@ footer {
     margin-right: 10%;
     text-align: end;
   }
+
+
+
+
 
 
