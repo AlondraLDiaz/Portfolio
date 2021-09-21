@@ -141,119 +141,115 @@ h1 {
 
  /* About Me Profile */
 
-.about-scroll{
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 6%;
-    margin:0 auto;
+.alondraContainer{
+   display: grid;
+   padding: 90px;
 }
 
-.profile{
-    margin-top: -13%;
-    text-align: left;
-    margin-left: -13%;
-}
+ .profile-container{
+background-color: #fce8bf;
+display: grid;
+flex-direction: column;
+padding: 140px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 675px;
+ }
 
+ .profile{
+     background-color:#fce8bf;
+     margin-top: -10%;
+ }
+
+ H2{
+font-family: 'Extra Bold Raleway', sans-serif;
+font-weight: 50pt;
+font-size: 20pt;
+line-height: 21.5pt;
+letter-spacing: -.5pt;
+margin-bottom: 3.5%;
+text-emphasis-color: black;
+}
 
 .profileContent{
-    font-size: 14pt;
-    font-weight: lighter;
+    font-size: 13pt;
+    font-weight: 10pt;
+    word-spacing: 1.5pt;
+    letter-spacing: .2pt;
     line-height: 20pt;
     font-family: 'Cabin', sans-serif;
     margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.profile.h2{ 
-font-family: 'Raleway', sans-serif;
-font-style:bold;
-font-size: 15pt;
-letter-spacing: 2pt;
-margin-bottom: 3%;
-text-emphasis-color: black;
-
-
+    margin-bottom: 3.5%;
 }
 
 p.hobbyList {
     font-weight: lighter;
     font-family: 'Cabin', sans-serif;
-    font-size: 14pt;
+    font-size: 13pt;
     line-height: 21pt;
     text-align: left;
     justify-content: left;
-  
+    margin-top: -.5%;
 }
 
-
-.scroll-box {
-    display: grid;
-    flex-direction: column;
-    grid-template-columns: 1fr 1fr;
-    background-color: #fce8bf;
-    box-sizing:inherit;
-    padding: 145px;
-    text-align: left;
-   
-}
 
 /* Profile Blocks css */
 
-.scroll-pic-container{
+.pic-container{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 }
 
-.scroll-pic{
-    
+.alondra-pic{
     height: 705px;
     width: 510px;
     display: start;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    justify-content: start;
+    align-items: flex-start;
     transform: translate(8%, -10%);
+    box-shadow: 3px 2px 0px grey;
     z-index: 1;
 }
 
-.block-yellow-scroll{
-    background-color: orange;
+.block-yellow-profile{
+    background-color: #FFA505;
     height: 730px;
     width: 550px;
     transform: translate(14%, -98%);
-    box-shadow: 3px 5px 5px grey;
+    box-shadow: 3px 3px 5px grey;
 }
 
-.block-orange-scroll{
-    background-color: yellow;
+.block-orange-profile{
+    background-color: #FFE505;
     height: 730px;
     width: 530px;
     transform: translate(12%, -204%);
-    box-shadow: 0px 5px 5px grey;
+    box-shadow: 3px 3px 5px grey;
 
 }
 
 /* skills css */
 
+
+.skillsContainer{
+    display: grid;
+    padding: 90px;
+    background-color: hotpink;
+}
+
 .skillsSection{
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 40px;
-    background: indigo;
+background-color: yellow;
+display: grid;
+flex-direction: column;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 400px;
 }
 
 .skillsCol{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-flex-direction: row;
-justify-content: center;
-padding: 3%;
-text-align: center;
 background-color: red;
+grid-template-rows: 300px;
 }
-
 
 .uxContent{
     text-align: center;
