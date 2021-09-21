@@ -160,31 +160,30 @@ grid-template-rows: 675px;
      margin-top: -10%;
  }
 
- H2{
+H2{
 font-family: 'Extra Bold Raleway', sans-serif;
-font-weight: 50pt;
+font-weight: 10pt;
 font-size: 20pt;
 line-height: 21.5pt;
 letter-spacing: -.5pt;
-margin-bottom: 3.5%;
-text-emphasis-color: black;
+margin-bottom: 4%;
+
 }
 
 .profileContent{
-    font-size: 13pt;
-    font-weight: 10pt;
-    word-spacing: 1.5pt;
-    letter-spacing: .2pt;
-    line-height: 20pt;
     font-family: 'Cabin', sans-serif;
-    margin-top: 3%;
+    font-size: 14pt;
+    line-height: 21pt;
+    letter-spacing: .2pt;
+    word-spacing: .5pt;
+    margin-top: 4%;
     margin-bottom: 3.5%;
 }
 
 p.hobbyList {
     font-weight: lighter;
     font-family: 'Cabin', sans-serif;
-    font-size: 13pt;
+    font-size: 13.5pt;
     line-height: 21pt;
     text-align: left;
     justify-content: left;
@@ -264,7 +263,6 @@ grid-template-rows: 300px;
 }
 
 .frontendContent{
-   
     text-align: center;
 
 }
