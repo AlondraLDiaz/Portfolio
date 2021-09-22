@@ -22,29 +22,30 @@ a:hover {
   font-weight: bold;
 }
 
-
-
   /* Intro Section css */
 
 .mainContainer{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 600px;
  
 } 
 
   .alondraElements{
     position: relative;
+  
   }
 
   .alondraImg{
-    margin-left: 25%;
+    margin-top: 13%;
+    margin-left: 18%;
+    transform: translate(5%, -12.5%);
     z-index: 1;
 
   }
   .initialBackground{
     position: absolute;
-    transform: translate(40%, -5%);
+    transform: translate(5%, -7%);
     z-index: -1;
   }
 
@@ -53,20 +54,51 @@ a:hover {
   
 }
 
-
-
-
-
 H1{
   font-family: 'Raleway', sans-serif;
-  font-size: 45pt;
+  font-size: 50pt;
+  letter-spacing: 1.5pt;
+  line-height: 65pt;
+  transform: translate(43%, 27%);
+
 }
 
 .introText{
   font-family: 'Raleway', sans-serif;
-  font-size: 15pt;
+  font-weight: lighter;
+  font-size: 19pt;
+  line-height: 35pt;
+  transform: translate(43%, 30%);
 }
 
+button[type="inTouch"]{
+  width: 200px;
+  border: none;
+  outline: none;
+  padding: 20px; 
+  font-size: 17px;
+  font-weight: normal;
+  border-radius: 8px;
+  font-family: Raleway, sans-serif;
+  background-color: #FFA505;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transform: translate(190%, 70%);
+  transition: .3s, ease-in ease-out background-color #FFA505 ;
+  
+}
+
+button[type="inTouch"]:hover{
+  background-color: #E59200;
+  font-weight: bold;
+  color: black;
+  text-emphasis-color: black;
+
+  }
+
+ /* arrow Animation */
 
 .sectionArrow{
   text-align: center;
