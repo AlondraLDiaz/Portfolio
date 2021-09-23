@@ -31,6 +31,13 @@ background-color: #fdeed4 ;
 margin-top: 0%;
 margin-right: 5%;
 margin-left: 5%;
+}
+
+.mockupContainer{
+  padding: 5%;
+  margin-top: 0%;
+  margin-right: 3%;
+  margin-left: 3%;
 
 }
 
@@ -38,22 +45,23 @@ margin-left: 5%;
 H2{
   color: #FFA505;
   font-family: 'Raleway', sans-serif;
-  font-size: 20pt;
+  font-size: 25pt;
+  font-weight: bolder;
   letter-spacing: 1pt;
-  margin-top: 5%;
+  margin-top: 8%;
   margin-right: 5%;
-  margin-left: 5%;
+  margin-left: 11%;
 }
 
 p{
   color: #707070;
   font-family: 'Cabin', sans-serif;
-  font-size: 23pt;
+  font-size: 21pt;
   letter-spacing: 1pt;
-  line-height: 40pt;
+  line-height: 42pt;
   opacity: 0.7;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 11%;
+  margin-left: 11%;
 }
 
 
@@ -61,7 +69,7 @@ p{
   height: 4px;
   background-color: #FFA505;
   padding: 0.2%;
-  margin-top: 4%;
+  margin-top: 8%;
   margin-right: 5%;
   margin-left: 5%;
 
@@ -76,8 +84,8 @@ p{
   letter-spacing: 1pt;
   line-height: 25pt;
   opacity: 0.7;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 11%;
+  margin-left: 11%;
 }
 
 /* definition and synthesis css */
@@ -90,8 +98,8 @@ p{
   letter-spacing: 1pt;
   line-height: 25pt;
   opacity: 0.7;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 11%;
+  margin-left: 11%;
 }
 
 /* ideation css */
@@ -104,8 +112,8 @@ p{
   letter-spacing: 1pt;
   line-height: 25pt;
   opacity: 0.7;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 11%;
+  margin-left: 11%;
 }
 
 /* low fidelity css */
@@ -118,8 +126,8 @@ p{
   letter-spacing: 1pt;
   line-height: 25pt;
   opacity: 0.7;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 11%;
+  margin-left: 11%;
 }
 
 /* user testing & outcomes css */
@@ -131,15 +139,15 @@ p{
   letter-spacing: 1pt;
   line-height: 25pt;
   opacity: 0.7;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 11%;
+  margin-left: 11%;
 }
 
 .prototypeContainer{
   padding: 5%;
   margin-top: 0%;
-  margin-right: 3%;
-  margin-left: 3%;
+  margin-right: 11%;
+  margin-left: 11%;
 }
 
 
@@ -155,7 +163,7 @@ p{
   line-height: 25pt;
   opacity: 0.7;
   margin-right: 5%;
-  margin-left: 5%;
+  margin-left: 11%;
 }
 
 ol {
@@ -166,8 +174,60 @@ ol {
   line-height: 25pt;
   opacity: 0.7;
   margin-right: 5%;
-  margin-left: 5%;
+  margin-left: 11%;
 }
+
+
+/* Final Protoype */
+
+.finalPrototypePantry{
+  color: #707070;
+  font-family: 'Cabin', sans-serif;
+  font-size: 15pt;
+  letter-spacing: 1pt;
+  line-height: 25pt;
+  opacity: 0.7;
+  margin-right: 11%;
+  margin-left: 11%;
+}
+
+
+button[type="finalProto"]{
+  width:200px;
+  border: none;
+  outline: none;
+  padding: 20px; 
+  font-size: 17px;
+  font-weight: normal;
+  border-radius: 8px;
+  font-family: Raleway, sans-serif;
+  background-color: #FFA505;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 42%;
+  transition: .3s, ease-in ease-out;
+  
+
+}
+
+button[type="finalProto"]:hover{
+background-color: #E59200;
+font-weight: bold;
+}
+
+
+
+
+
+
+/* path to other works */
+
+
+
+
+
 
 
 /* footer css */
