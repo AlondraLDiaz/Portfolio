@@ -56,19 +56,19 @@ a:hover {
 
 H1{
   font-family: 'Raleway', sans-serif;
-  font-size: 45pt;
+  font-size: 57pt;
   letter-spacing: 1.5pt;
-  line-height: 55pt;
-  transform: translate(43%, 30%);
+  line-height: 67pt;
+  transform: translate(43%, 25%);
 
 }
 
 .introText{
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
-  font-size: 19pt;
+  font-size: 17pt;
   line-height: 35pt;
-  transform: translate(43%, 30%);
+  transform: translate(43%, 27%);
 }
 
 button[type="inTouch"]{
@@ -76,33 +76,35 @@ button[type="inTouch"]{
   border: none;
   outline: none;
   padding: 20px; 
-  font-size: 17px;
-  font-weight: normal;
+  font-size: 19px;
+  font-weight: 150pt;
   border-radius: 8px;
-  font-family: Raleway, sans-serif;
-  background-color: #FFA505;
+  font-family: 'Semibold Raleway', sans-serif;
+  background-color: #FFE505;
   color: black;
   text-align: center;
   cursor: pointer;
-  margin-top: 10px;
-  transform: translate(190%, 70%);
-  transition: .3s, ease-in ease-out background-color #FFA505 ;
+  margin-top: 20px;
+  transform: translate(185%, 90%);
+  transition: .3s, ease-in ease-in-out;
   
 }
 
 button[type="inTouch"]:hover{
-  background-color: #E59200;
-  font-weight: bold;
+  background-color: #ffe509;
+  font-weight: 500px;
   color: black;
+  font-weight: bold;
+  font-family: 'Bold Raleway', sans-serif;
   text-emphasis-color: black;
-
+  box-shadow: 3px 3px 3px 2px grey;
+  transition: .3s, ease-in-out ;
   }
 
  /* arrow Animation */
 
 .sectionArrow{
   text-align: center;
-  margin-top: -4%;
 }
 
 .orangeArrow {

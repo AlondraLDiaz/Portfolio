@@ -274,33 +274,40 @@ h3{
  /* Resume button */
 
  .digitalResume{
-     margin-top: -3%;
+     margin-top: -5%;
+     margin-left: 6.5%;
+     margin-bottom: 5%;
  
  }
 
 button[type="resume"]{
-    width:300px;
+    width:200px;
     border: none;
     outline: none;
     padding: 20px; 
     font-size: 17px;
     font-weight: normal;
     border-radius: 8px;
-    font-family: Raleway, sans-serif;
-    background-color: #FFA505;
+    font-family: 'Semibold Raleway', sans-serif;
+    background-color: #FFE505;
     color: black;
     text-align: center;
     cursor: pointer;
     margin-top: 10px;
-    transition: .3s, ease-in ease-out;
+    transition: .3s, ease-in ease-in-out;
 
 }
 
 button[type="resume"]:hover{
-background-color: #E59200;
-font-weight: bold;
-}
-
+    background-color: #ffe509;
+    font-weight: 500px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Bold Raleway', sans-serif;
+    text-emphasis-color: black;
+    box-shadow: 3px 3px 3px 2px grey;
+    transition: .3s, ease-in-out ;
+    }
 
 /* footer css */
 

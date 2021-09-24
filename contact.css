@@ -21,20 +21,29 @@ a:hover {
   font-weight: bold;
 }
 
-
  /* Form css */
+ 
+ h1{
+  background-color:#fdeed4;
+  margin-top: -5%;
+  width: 95%;
+  margin-left: -16%;
+  margin-bottom: 12%;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+ }
 
 
 section{
     font-family: Raleway, sans-serif;
     background-color:#fdeed4;
     display: flex;
-    height: 800px;
+    height: 920px;
     margin: 5%;
-    margin-top: 0%;
+    margin-top: 4%;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 8%;
+    margin-bottom: 13%;
     padding: -1%;
     align-items: center;
     justify-content: center;
@@ -78,20 +87,29 @@ button[type="submit"]{
     border: none;
     outline: none;
     padding: 20px; 
-    font-size: 24px;
+    font-size: 19px;
     border-radius: 8px;
-    font-family: Raleway, sans-serif;
+    font-family: 'Semibold Raleway', sans-serif;
     background-color: #FFA505;
     color: black;
     text-align: center;
     cursor: pointer;
-    margin-top: 10px;
-    transition: .3s, ease background-color;
+    margin-top: 35px;
+    transition: .3s, ease-in-out ;
 }
 
+
 button[type="submit"]:hover{
-background-color: #E59200;
-}
+  background-color:#FFA505;
+  font-weight: 500px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Bold Raleway', sans-serif;
+  text-emphasis-color: black;
+  box-shadow: 3px 3px 3px 2px grey;
+  transition: .3s, ease-in-out ;
+  }
+
 
 #status{
  width: 90%;
