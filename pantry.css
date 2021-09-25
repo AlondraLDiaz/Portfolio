@@ -151,33 +151,6 @@ p{
 }
 
 
-
-/* project summary css */
-
-.projectSum{
-  color: #707070;
-  font-family: 'Cabin', sans-serif;
-  font-size: 15pt;
-  font-weight: bold;
-  letter-spacing: 1pt;
-  line-height: 25pt;
-  opacity: 0.7;
-  margin-right: 5%;
-  margin-left: 11%;
-}
-
-ol {
-  color: #707070;
-  font-family: 'Cabin', sans-serif;
-  font-size: 15pt;
-  letter-spacing: 1.5pt;
-  line-height: 25pt;
-  opacity: 0.7;
-  margin-right: 5%;
-  margin-left: 11%;
-}
-
-
 /* Final Protoype */
 
 .finalPrototypePantry{
@@ -197,10 +170,10 @@ button[type="finalProto"]{
   border: none;
   outline: none;
   padding: 20px; 
-  font-size: 17px;
+  font-size: 14px;
   font-weight: normal;
   border-radius: 8px;
-  font-family: Raleway, sans-serif;
+  font-family: 'Cabin', sans-serif;;
   background-color: #FFA505;
   color: black;
   text-align: center;
@@ -208,6 +181,7 @@ button[type="finalProto"]{
   margin-top: 25px;
   margin-left: 42%;
   transition: .3s, ease-in ease-out;
+  margin-bottom: 15%;
   
 
 }
@@ -217,18 +191,91 @@ background-color: #E59200;
 font-weight: bold;
 }
 
-/* path to other works */
+
+/* project summary css */
 
 
 
+.summaryBox{
+  background-color: #fdeed4;
+  padding: 350px;
+  height: 750px;
+  margin-top: -5%;
+  margin-right: 5%;
+  margin-left: 5%;
+ 
+  }
 
+  .summaryTitle{
+    margin-top: -55%;
+    margin-left: -61%;
+  }
+
+.projectSum{
+  color: #707070;
+  background-color: red;
+  font-family: 'Cabin', sans-serif;
+  font-size: 15pt;
+  font-weight: bold;
+  letter-spacing: 1pt;
+  line-height: 25pt;
+  opacity: 0.7;
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 11%;
+}
+
+ol {
+  color: #707070;
+  font-family: 'Cabin', sans-serif;
+  font-size: 15pt;
+  letter-spacing: 1.5pt;
+  line-height: 25pt;
+  opacity: 0.7;
+  margin-right: 5%;
+  margin-left: 11%;
+}
+
+
+
+/* projects CSS */
+
+
+
+.arrowStudies{
+  text-align: end;
+  margin-bottom: 5%;
+}
+
+.sectionArrow{
+  font-family: 'Raleway', sans-serif;
+  color: #FFA505;
+  font-size: 45pt;
+  font-weight: normal; 
+  transform: translate(-13%, 118%);
+}
+
+.nextArrow {
+  color: #FFA505;
+  margin-right: 6%;
+  position: relative;
+  animation-name: arrow;
+  animation-duration: 4s ;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease;
+}
+
+@keyframes arrow {
+  0%   {right:0px;}
+  25%  {right:15px;}
+  50%  {right:0px;}
+}
 
 
 
 /* footer css */
 
 footer {
-  position:sticky;
   justify-content: space-evenly;
   font-size: 11pt;
   font-family: 'Raleway', sans-serif;
