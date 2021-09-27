@@ -22,11 +22,26 @@
             <!-- Navbar section -->
             <nav class="navbar navbar-expand-lrg bg">
                 <div class="nav-logo"> <a href="index.html"> <img src="images/Alondra Portfolio logo.png"> </a></div>
-                <div class="navbarToggle" id="mobileMenu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+
+                <div class="navbarToggle"id="mobileNav">
+                  <nav class="w3-sidebar-black animate-top-bg" style="display:none;padding-top:150px" id="mobileMenu">
+                    
+                     <!-- Javascript hamburger icon -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                    <!-- Mobile Menu -->
+
+
+                        <div class="w3-bar-block">
+                            <a href="about.html" class="bar-item">About</a>
+                            <a href="index.html" class="bar-item">Work</a>
+                            <a href="contact.html" class="bar-item">Contact</a>
+                        </div>
+                        </nav>
                 </div>
+
+                <!-- Desktop Menu -->
                 <div class="navMenu">
                     <ul class="nav">
                         <li class="nav-item">
