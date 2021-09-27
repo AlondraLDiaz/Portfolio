@@ -1,26 +1,48 @@
+* {
+  scroll-behavior: smooth;
+}
+
 /* nav css */
   .nav-logo {
+    display: flex;
     width: 10%;
     padding: 2%;
     margin: 1%;
     text-align: center; 
+    display: flex;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
   }
 
-  nav {
+  .navMenu {
+    display: flex;
+    justify-content: center;
     font-family: 'Raleway', sans-serif;
     text-align:center;
     margin-right: 3%;
-    
+    position: sticky;
+    z-index: 999;
+    top: 0;
   }
+
+
 
 a {
   color: black;
-  font-weight: lighter;
+  font-weight: 25pt;
 }
 a:hover {
   color:#F7BC54;
   font-weight: bold;
 }
+
+
+
+
+
+
+
 
   /* Intro Section css */
 
@@ -137,6 +159,8 @@ button[type="inTouch"]:hover{
 .caseStudy-img {
 justify-content: left;
 width: 400px;
+max-width: 600px;
+min-width: none;
 
 }
 
@@ -163,8 +187,8 @@ h4{
      display:grid;
      grid-template-areas: 'myArea1';
      grid-template-columns: 2fr;
-    margin: 5%;
-    padding: 40px;
+     margin: 5%;
+     padding: 40px;
  }
 
 .item1{
@@ -172,6 +196,7 @@ h4{
     margin-top: 8%;
     margin-bottom: 4%;
     background-color: #fdeed4; 
+    max-width: 1200px;
 }
 
 button[type="caseStudy"]{
@@ -190,7 +215,7 @@ button[type="caseStudy"]{
   cursor: pointer;
   margin-top: 30px;
   transform: translate(10%, -5%);
-  transition: .3s, ease-in ease-in-out;
+  transition: all .3s, ease;
 }
 
 
@@ -228,4 +253,90 @@ margin-top: 10%;
   margin-right: 10%;
   text-align: end;
 }
+
+
+
+@media screen and (max-width:650px){
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0px;
+  }
+
+  .navMenu{
+    display: grid;
+    grid-template-columns: auto;
+    margin:0;
+    width: 100%;
+    position: absolute;
+    top: -1000px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: -1;
+  }
+
+  .navMenu.active{
+    top:100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 99;
+    height: 60vh;
+    font-size: 15pt;
+
+  }
+
+  .navbarToggle{
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+    background-color: orange;
+  }
+
+
+#mobileMenu{
+  top:20%;
+  right: 5%;
+  transform: translate(5%, 20%)
+}
+
+.navbarToggle{
+  display: block;
+  cursor: pointer;
+}
+
+#mobileMenu.navMenu.active.navbar:nth-child(2){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
 
