@@ -233,25 +233,19 @@ footer {
   font-family: 'Raleway', sans-serif;
   color: black;
   background-color:#fdeed4;
-  padding: 3%;
+  padding: 4%;
   }
   
-.footerContact{
-margin-top: 10%;
- 
-}
 
-.footerLogo{
-  margin-left: 10%;
+.footerAll{
+  margin:0 auto;
   text-align: center;
-  margin-top: 5%;
-  margin-right: 4%;
+
 }
 
 .footerSocials{
-  margin-top: 8%;
-  margin-right: 10%;
-  text-align: end;
+  margin:0 auto;
+  text-align: center;
 }
 
 
@@ -268,7 +262,7 @@ margin-top: 10%;
 
 
 
-}
+
 
 
 
