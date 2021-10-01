@@ -256,63 +256,6 @@ margin-top: 10%;
 
 
 
-@media screen and (max-width:650px){
-
-.nav-logo{
-  width: 100%;
-}
-
-.nav-link{
-  opacity: 1%;
-  margin-top: -1000%;
-}
-
-/* Style the navigation menu */
-.navbarToggle {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.navbarToggle #mobileMenu {
-  display: none;
-}
-
-/* Style navigation menu links */
-.navbarToggle a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-/* Style the hamburger menu */
-.navbarToggle a.icon {
-  background:orange;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: orange;
-  color: black;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: orange;
-  color: white;
-}
-
-
-
-  
-
 
 
 
