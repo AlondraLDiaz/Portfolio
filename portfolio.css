@@ -38,12 +38,6 @@ a:hover {
 }
 
 
-
-
-
-
-
-
   /* Intro Section css */
 
 .mainContainer{
@@ -101,7 +95,7 @@ button[type="inTouch"]{
   font-size: 19px;
   font-weight: 150pt;
   border-radius: 8px;
-  font-family: 'Semibold Cabin', sans-serif;
+  font-family: 'Bold Cabin', sans-serif;
   background-color: #FFE505;
   color: black;
   text-align: center;
@@ -221,7 +215,8 @@ button[type="caseStudy"]{
 
 button[type="caseStudy"]:hover{
   background-color: #E59200;
-  font-weight: bold;
+  font-family: 'Semibold Cabin', sans-serif;
+ 
   }
   
 
@@ -229,7 +224,7 @@ button[type="caseStudy"]:hover{
 
 footer {
   justify-content: space-evenly;
-  font-size: 11pt;
+  font-size: 18pt;
   font-family: 'Raleway', sans-serif;
   color: black;
   background-color:#fdeed4;
