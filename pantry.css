@@ -69,83 +69,88 @@ p.pantry{
 
 /* content css OVERVIEW */
 
-.contentContainer{
+.project-Container{
   display: grid;
   padding: 5px;
-  background-color: green;
+  background-color: #fdeed4;
   margin-top: 8%;
   grid-template-columns: 1fr 1fr;
   margin-right: 5%;
   margin-left: 5%;
 }
 
-.contentOverview{
-  width: 100%;
+.synopsisContainer{
   display: grid;
-  background-color: purple;
   flex-direction: column;
-  padding: 75px;
+  padding: 50px;
   grid-template-columns: 1fr;
   grid-template-rows: 530px;
+  background-color: orchid;
   }
 
+.detailedContainer{
+    display: grid;
+    padding: 50px;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 530px;
+    background-color: purple;
+    }
+  
+h3{
+  color: #FFA505;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24pt;
+  font-weight: bolder;
+  letter-spacing: 1pt;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.detailed-block{
+margin-top: 4%;
+
+
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+  font-size: 21pt;
+  justify-content: left;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+p.details{
+  font-family: 'Cabin', sans-serif;
+  font-size: 12pt;
+  justify-content: left;
+  margin-left: 5%;
+
+}
+
+p.snippets{
+  font-family: 'Cabin', sans-serif;
+  font-size: 12pt;
+  justify-content: left;
+  margin-left: 5%;
+}
+
+
+/* Headers */
 
 H2{
   color: #FFA505;
   font-family: 'Raleway', sans-serif;
-  font-size: 25pt;
+  font-size: 24pt;
   font-weight: bolder;
   letter-spacing: 1pt;
   margin-top: 4%;
   margin-right: 5%;
   margin-left: 11%;
 }
-
-p.projectOverview{
-  color: #707070;
-  font-family: 'Cabin', sans-serif;
-  font-size: 14pt;
-  letter-spacing: 1pt;
-  line-height: 25pt;
-  word-break: normal;
-  margin-top: -80%;
-  margin-right: 5%;
-  margin-left: 5%;
- 
-}
-
-.detailContainer{
-  display: grid;
-  padding: 25px;
-  background-color: fuchsia;
-  margin-top: 8%;
-  grid-template-columns: 1fr 1fr;
-
-
-
-}
-
-.contentOverview2{
-  width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    flex-direction: flex;
-    background-color: red;
-    padding: 75px;
-    grid-template-rows: 530px;
-  }
-
-p.projectDetails{
-  color: #707070;
-  font-family: 'Cabin', sans-serif;
-  font-size: 14pt;
-  letter-spacing: 1pt;
-  line-height: 25pt;
-}
-
-
-
-
 
 
 /* research css */
@@ -356,27 +361,21 @@ ol {
 
 footer {
   justify-content: space-evenly;
-  font-size: 11pt;
+  font-size: 18pt;
   font-family: 'Raleway', sans-serif;
   color: black;
   background-color:#fdeed4;
-  padding: 3%;
+  padding: 4%;
   }
   
-.footerContact{
-margin-top: 10%;
- 
-}
 
-.footerLogo{
-  margin-left: 10%;
+.footerAll{
+  margin:0 auto;
   text-align: center;
-  margin-top: 5%;
-  margin-right: 4%;
+
 }
 
 .footerSocials{
-  margin-top: 8%;
-  margin-right: 10%;
-  text-align: end;
+  margin:0 auto;
+  text-align: center;
 }

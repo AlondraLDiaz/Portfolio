@@ -309,35 +309,28 @@ button[type="resume"]:hover{
     transition: .3s, ease-in-out ;
     }
 
-/* footer css */
+    /* * footer css */ 
 
-footer {
-    position:sticky;
-    justify-content: space-evenly;
-    font-size: 11pt;
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    background-color:#fdeed4;
-    padding: 3%;
+    footer {
+      justify-content: space-evenly;
+      font-size: 18pt;
+      font-family: 'Raleway', sans-serif;
+      color: black;
+      background-color:#fdeed4;
+      padding: 4%;
+      }
+      
+    
+    .footerAll{
+      margin:0 auto;
+      text-align: center;
+    
     }
     
-  .footerContact{
-  margin-top: 10%;
-   
-  }
-  
-  .footerLogo{
-    margin-left: 10%;
-    text-align: center;
-    margin-top: 5%;
-    margin-right: 4%;
-  }
-  
-  .footerSocials{
-    margin-top: 8%;
-    margin-right: 10%;
-    text-align: end;
-  }
+    .footerSocials{
+      margin:0 auto;
+      text-align: center;
+    }
 
 
 
