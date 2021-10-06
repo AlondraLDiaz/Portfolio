@@ -80,18 +80,18 @@ p.pantry{
 .synopsisContainer{
   display: grid;
   flex-direction: column;
-  padding: 50px;
+  padding: 75px;
   grid-template-columns: 1fr;
-  grid-template-rows: 550px;
+  grid-template-rows: 555px;
 
   }
 
 .detailedContainer{
     display: grid;
-    padding: 50px;
+    padding: 75px;
     flex-direction: column;
     grid-template-columns: 1fr;
-    grid-template-rows: 530px;
+    grid-template-rows: 555px;
   
     }
   
@@ -101,7 +101,8 @@ h3{
   font-size: 25pt;
   font-weight: bolder;
   letter-spacing: 1pt;
-  margin-bottom: 12%;
+  margin-bottom: 9.5%;
+  margin-top: -10%;
   margin-right: 5%;
   margin-left: 5%;
 }
@@ -302,57 +303,103 @@ font-weight: bold;
 /* project summary css */
 
 
-
-.summaryBox{
+.summary-Container{
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  padding: 50px;
   background-color: #fdeed4;
-  padding: 350px;
-  height: 750px;
-  margin-top: -5%;
+  margin-top: 8%;
+  grid-template-columns: 1fr 1fr;
   margin-right: 5%;
   margin-left: 5%;
- grid-template-rows: 10px;
-  }
+}
 
-  .summaryTitle{
-    display: grid;
-    grid-template-columns: 1fr ;
-    margin-top: -55%;
-    margin-left: -61%;
-  }
-
-.projectSum{
+.outcome-Container{
   display: grid;
-  grid-template-columns: 1fr  1fr;
-  color: #707070;
-  background-color: red;
-  font-family: 'Cabin', sans-serif;
-  font-size: 15pt;
-  font-weight: bold;
-  letter-spacing: 1pt;
-  line-height: 25pt;
-  opacity: 0.7;
-  margin-top: 2%;
-  margin-right: 5%;
-  margin-left: 11%;
+  flex-direction: column;
+  padding: 75px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 500px;
+
+  }
+
+.opport-container{
+    display: grid;
+    padding: 75px;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px;
+  
+    }
+
+    h3{
+      color: #FFA505;
+      font-family: 'Raleway', sans-serif;
+      font-size: 25pt;
+      font-weight: bolder;
+      letter-spacing: 1pt;
+      margin-bottom: 9.5%;
+      margin-top: -10%;
+      margin-right: 5%;
+      margin-left: 5%;
+    }
+    
+    .summary-block{
+    margin-top: 4%;
+    }
+    
+    h4{
+      font-family: 'Raleway', sans-serif;
+      font-size: 20pt;
+      justify-content: left;
+      line-height: 25pt;
+      margin-top: 8%;
+      margin-left: 5%;
+    }
+    
+    p.outcomeContent{
+      font-family: 'Cabin', sans-serif;
+      font-size: 14pt;
+      line-height: 25pt;
+      text-align: left;
+      margin-top: 10%;
+      margin-left: 26%;
+      margin-right: 20%;
+    
+    }
+    
+    p.points{
+      font-family: 'Cabin', sans-serif;
+      font-size: 14pt;
+      justify-content: left;
+      margin-top: 10%;
+      margin-left: 26%;
+      margin-right: 20%;
+    }
+
+
+.bulletpt{
+width: 5px;
 }
 
-ol {
-  color: #707070;
-  font-family: 'Cabin', sans-serif;
-  font-size: 15pt;
-  letter-spacing: 1.5pt;
-  line-height: 25pt;
-  opacity: 0.7;
-  margin-right: 5%;
-  margin-left: 11%;
+
+
+
+/* next project CSS */
+
+.next{
+  margin-top: -10%;
 }
 
 
+.homeBtn{
+  text-align: start;
+  margin-bottom: 5%;
+}
 
-/* projects CSS */
-
+.homeIcon{
+  color: #FFA505;
+  transform: translate(11%, 220%);
+}
 
 
 .arrowStudies{
