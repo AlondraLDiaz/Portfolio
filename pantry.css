@@ -1,26 +1,24 @@
 /* nav css */
+
 .nav-logo {
   width: 10%;
-  padding: 1%;
+  padding: 2%;
   margin: 1%;
   text-align: center; 
 }
-
 nav {
   font-family: 'Raleway', sans-serif;
-    text-align:center;
-    margin-top: 1%;
-    margin-right: 3%;
-    margin-left: 1%;
-  }
+  text-align:center;
+  margin-right: 3%;
+}
 
 a {
-  color: black;
+color: black;
+font-weight: lighter;
 }
 a:hover {
-  color:#F7BC54;
-  font-weight: bold;
-
+color:#F7BC54;
+font-weight: bold;
 }
 
 /* mockup css */
@@ -71,7 +69,7 @@ p.pantry{
 
 .project-Container{
   display: grid;
-  padding: 5px;
+  padding: 50px;
   background-color: #fdeed4;
   margin-top: 8%;
   grid-template-columns: 1fr 1fr;
@@ -84,8 +82,8 @@ p.pantry{
   flex-direction: column;
   padding: 50px;
   grid-template-columns: 1fr;
-  grid-template-rows: 530px;
-  background-color: orchid;
+  grid-template-rows: 550px;
+
   }
 
 .detailedContainer{
@@ -94,38 +92,37 @@ p.pantry{
     flex-direction: column;
     grid-template-columns: 1fr;
     grid-template-rows: 530px;
-    background-color: purple;
+  
     }
   
 h3{
   color: #FFA505;
   font-family: 'Raleway', sans-serif;
-  font-size: 24pt;
+  font-size: 25pt;
   font-weight: bolder;
   letter-spacing: 1pt;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  margin-bottom: 12%;
   margin-right: 5%;
   margin-left: 5%;
 }
 
 .detailed-block{
 margin-top: 4%;
-
-
 }
 
 h4{
   font-family: 'Raleway', sans-serif;
-  font-size: 21pt;
+  font-size: 20pt;
   justify-content: left;
-  margin-top: 4%;
+  line-height: 25pt;
+  margin-top: 8%;
   margin-left: 5%;
 }
 
 p.details{
   font-family: 'Cabin', sans-serif;
-  font-size: 12pt;
+  font-size: 14pt;
+  line-height: 23pt;
   justify-content: left;
   margin-left: 5%;
 
@@ -137,6 +134,38 @@ p.snippets{
   justify-content: left;
   margin-left: 5%;
 }
+
+.btnproto{
+  justify-content: center;
+  margin-top: 8%;
+  margin-right: 87%;
+}
+
+button[type="Proto"]{
+  width:200px;
+  border: none;
+  outline: none;
+  padding: 20px; 
+  font-size: 14px;
+  font-weight: normal;
+  border-radius: 8px;
+  font-family: 'Cabin', sans-serif;;
+  background-color: #FFA505;
+  color: black;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 42%;
+  transition: .3s, ease-in ease-out;
+  margin-bottom: 15%;
+  
+
+}
+
+button[type="Proto"]:hover{
+background-color: #E59200;
+font-weight: bold;
+}
+
 
 
 /* Headers */
