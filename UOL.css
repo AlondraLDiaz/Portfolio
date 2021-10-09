@@ -1,0 +1,533 @@
+.nav-logo {
+    width: 10%;
+    padding: 2%;
+    margin: 1%;
+    text-align: center; 
+  }
+  nav {
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    margin-right: 3%;
+  }
+  
+  a {
+  color: black;
+  font-weight: lighter;
+  }
+  a:hover {
+  color:#F7BC54;
+  font-weight: bold;
+  }
+  
+  /* mockup css */
+  
+  .backgroundBox{
+  height: 500px;
+  background-color: #fdeed4 ;
+  margin-top: 0%;
+  margin-right: 5%;
+  margin-left: 5%;
+  }
+  
+  .mockupContainer{
+    padding: 5%;
+    margin-top: 0%;
+    margin-right: 5%;
+    margin-left: 10%;
+  
+  }
+  
+  /* Case study about */
+  
+  
+  h1{
+    margin-top: 4%;
+    color: #FFA505;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 45pt;
+    font-size: 35pt;
+    margin-bottom: 2%;
+  }
+  
+  
+  p.pantry{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: #707070;
+    opacity: 0.7;
+    line-height: 30pt;
+    font-size: 17pt;
+    margin-left: 27%;
+    margin-right: 27%;
+  }
+  
+  
+  /* content css OVERVIEW */
+  
+  .project-Container{
+    display: grid;
+    padding: 50px;
+    background-color: #fdeed4;
+    margin-top: 8%;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  .synopsisContainer{
+    display: grid;
+    flex-direction: column;
+    padding: 75px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 555px;
+  
+    }
+  
+  .detailedContainer{
+      display: grid;
+      padding: 75px;
+      flex-direction: column;
+      grid-template-columns: 1fr;
+      grid-template-rows: 555px;
+    
+      }
+    
+  h3{
+    color: #FFA505;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25pt;
+    font-weight: bolder;
+    letter-spacing: 1pt;
+    margin-bottom: 9.5%;
+    margin-top: -10%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  .detailed-block{
+  margin-top: 4%;
+  }
+  
+  h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;
+    justify-content: left;
+    line-height: 25pt;
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+  
+  p.details{
+    font-family: 'Cabin', sans-serif;
+    font-size: 14pt;
+    line-height: 23pt;
+    justify-content: left;
+    margin-left: 5%;
+  
+  }
+  
+  p.snippets{
+    font-family: 'Cabin', sans-serif;
+    font-size: 12pt;
+    justify-content: left;
+    margin-left: 5%;
+  }
+  
+  .btnproto{
+    justify-content: center;
+    margin-top: 8%;
+    margin-right: 87%;
+  }
+  
+  button[type="Proto"]{
+    width:200px;
+    border: none;
+    outline: none;
+    padding: 20px; 
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 8px;
+    font-family: 'Cabin', sans-serif;;
+    background-color: #FFA505;
+    color: black;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 42%;
+    transition: .3s, ease-in ease-out;
+    margin-bottom: 15%;
+    
+  
+  }
+  
+  button[type="Proto"]:hover{
+  background-color: #E59200;
+  font-weight: bold;
+  }
+  
+  
+  
+  /* Headers*/
+  
+  H2{
+    color: #FFA505;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28pt;
+    font-weight: bolder;
+    letter-spacing: 1pt;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-left: 11%;
+    margin-bottom: 2%;
+  }
+  
+  h5{
+    margin-top: 2%;
+    color: #FFA505;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    line-height: 45pt;
+    font-size: 20pt;
+    margin-left:11%;
+    }
+  
+  
+  /* research  setion css */
+  
+  .contentResearch{
+      margin-bottom: 8%;
+  }
+  
+  .researchContent{
+    color: #707070;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15pt;
+    letter-spacing: 1pt;
+    line-height: 27pt;
+    margin-right: 11%;
+    margin-left: 11%;
+    word-wrap: break-word;
+  }
+  
+  p.researchContent > ul,ol {
+    color: #707070;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15pt;
+    letter-spacing: 1pt;
+    line-height: 25pt;
+    margin-right: 11%;
+    margin-left: 11%;
+    word-wrap: break-word;
+  }
+  
+  .research-lists{
+    text-align: left;
+    margin-left: 8%;
+  }
+  
+  
+  
+  /* definition and ideate css */
+  
+  
+  .defsynthContent{
+        color: #707070;
+        font-family: 'Cabin', sans-serif;
+        font-size: 15pt;
+        letter-spacing: 1pt;
+        line-height: 27pt;
+        margin-right: 11%;
+        margin-left: 11%;
+        word-wrap: break-word;
+      }
+  
+  
+      .sketches{
+        text-align: center;
+        margin-top: 5%;
+        margin-right: 11%;
+        margin-left: 11%;
+        margin-bottom: 5%;
+      }
+  
+  
+  
+  /* prototyping section */
+  
+  .prototestContent{
+      margin-bottom: 5%;
+  }
+  
+  .protoContent{
+    color: #707070;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15pt;
+    letter-spacing: 1pt;
+    line-height: 27pt;
+    margin-right: 11%;
+    margin-left: 11%;
+    word-wrap: break-word;
+  }
+  
+  .wireframes{
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 11%;
+    margin-left: 11%;
+    margin-bottom: 5%;
+  
+  }
+  
+  
+  button[type="midProto"]{
+    width:200px;
+    border: none;
+    outline: none;
+    padding: 20px; 
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 8px;
+    font-family: 'Cabin', sans-serif;;
+    background-color: #FFA505;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 42%;
+    transition: .3s, ease-in ease-out;
+    margin-bottom: 3%;
+    
+  }
+  
+  button[type="midProto"]:hover{
+  background-color: #E59200;
+  font-weight: bold;
+  }
+  
+  
+  
+  
+  .inspoPics{
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 11%;
+    margin-left: 11%;
+    margin-bottom: 5%;
+  
+  }
+  
+  .logoPics{
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 11%;
+    margin-left: 11%;
+    margin-bottom: 5%;
+  
+  }
+  
+  
+    /* Final Protoype */
+  .usertestingContent{
+    color: #707070;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15pt;
+    letter-spacing: 1pt;
+    line-height: 27pt;
+    margin-right: 11%;
+    margin-left: 11%;
+    word-wrap: break-word;
+   
+  }
+  
+  .prototypeContainer{
+    padding: 5%;
+    margin-top: -2%;
+    margin-right: 11%;
+    margin-left: 11%;
+  }
+  
+  
+  
+  button[type="finalProto"]{
+    width:200px;
+    border: none;
+    outline: none;
+    padding: 20px; 
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 8px;
+    font-family: 'Cabin', sans-serif;;
+    background-color: #FFA505;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -17%;
+    margin-left: 42%;
+    transition: .3s, ease-in ease-out;
+    margin-bottom: 8%;
+    
+  }
+  
+  button[type="finalProto"]:hover{
+  background-color: #E59200;
+  font-weight: bold;
+  }
+  
+  
+  /* project summary css */
+  
+  
+  .summary-Container{
+    display: grid;
+    padding: 50px;
+    background-color: #fdeed4;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  .outcome-Container{
+    display: grid;
+    flex-direction: column;
+    padding: 75px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 800px;
+  
+    }
+  
+  .opport-container{
+      display: grid;
+      padding: 75px;
+      flex-direction: column;
+      grid-template-columns: 1fr;
+      grid-template-rows: 800px;
+    
+      }
+  
+      h3{
+        color: #FFA505;
+        font-family: 'Raleway', sans-serif;
+        font-size: 25pt;
+        font-weight: bolder;
+        letter-spacing: 1pt;
+        margin-bottom: 9.5%;
+        margin-top: -10%;
+        margin-right: 5%;
+        margin-left: 5%;
+      }
+      
+      .summary-block{
+      margin-top: 4%;
+      }
+      
+      h4{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20pt;
+        justify-content: left;
+        line-height: 25pt;
+        margin-top: 8%;
+        margin-left: 5%;
+      }
+      
+      p.outcomeContent{
+        font-family: 'Cabin', sans-serif;
+        font-size: 13pt;
+        line-height: 23pt;
+        text-align: left;
+        margin-top: 8%;
+        margin-left: 24%;
+        margin-right: 5%;
+      
+      }
+      
+      p.points{
+        font-family: 'Cabin', sans-serif;
+        font-size: 14pt;
+        justify-content: left;
+        margin-top: 10%;
+        margin-left: 26%;
+        margin-right: 20%;
+      }
+  
+  
+  .bulletpt{
+  width: 5px;
+  }
+  
+  
+  /* next project CSS */
+  
+  .next{
+    margin-top: -15%;
+  }
+  
+  .arrowBack{
+    text-align: start;
+   
+  }
+  
+  .sectionback-Arrow{
+    font-family: 'Raleway', sans-serif;
+  
+    font-size: 45pt;
+    font-weight: normal; 
+    transform: translate(13%, 190%);
+  }
+  
+  .backArrow {
+    position: relative;
+    margin-left: 5%;
+    animation-name: arrow;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+  }
+  
+  
+  .arrowStudies{
+    text-align: end;
+    margin-bottom: 5%;
+  }
+  
+  .sectionArrow{
+    font-family: 'Raleway', sans-serif;
+    color: #FFA505;
+    font-size: 45pt;
+    font-weight: normal; 
+    transform: translate(-13%, 118%);
+  }
+  
+  .nextArrow {
+    color: #FFA505;
+    margin-right: 6%;
+    position: relative;
+    animation-name: arrow;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease;
+  }
+  
+  
+  
+  /* footer css */
+  
+  footer {
+    justify-content: space-evenly;
+    font-size: 18pt;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background-color:#fdeed4;
+    padding: 4%;
+    }
+    
+  
+  .footerAll{
+    margin:0 auto;
+    text-align: center;
+  
+  }
+  
+  .footerSocials{
+    margin:0 auto;
+    text-align: center;
+  }
