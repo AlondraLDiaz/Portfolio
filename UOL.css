@@ -391,7 +391,7 @@
     flex-direction: column;
     padding: 75px;
     grid-template-columns: 1fr;
-    grid-template-rows: 800px;
+    grid-template-rows: 500px;
   
     }
   
@@ -400,7 +400,7 @@
       padding: 75px;
       flex-direction: column;
       grid-template-columns: 1fr;
-      grid-template-rows: 800px;
+      grid-template-rows: 500px;
     
       }
   
@@ -519,6 +519,7 @@
     background-color:#fdeed4;
     padding: 4%;
     margin-bottom: -5%;
+    margin-top: 15%;
     }
     
   
