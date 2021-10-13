@@ -154,7 +154,7 @@ display: grid;
 flex-direction: column;
 padding: 140px;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: 900px;
+grid-template-rows: 700px;
  }
 
  .profile{
@@ -191,34 +191,6 @@ p.hobbyList {
     justify-content: left;
     margin-top: -.5%;
 }
-
-/* container */
-.meStuff-container{
-    display: grid;
-    padding: 50px;
-    width: 400px;
-    height: 400px;
-    flex-direction: column;
-    justify-content: left;
-    grid-template-columns:inherit;
-    grid-template-rows: 300px;
-    background-color: purple;
-}
-
-/* col */
-.listContent{
-    display: grid;
-    flex-direction: column;
-    background-color: red;
-}
-
-h4{
-    font-size: 14pt;
-}
-p.meContent{
-    font-size: 11pt;
-}
-
 
 
 /* Profile Blocks css */
