@@ -1,25 +1,37 @@
 /* nav css */
-
 .nav-logo {
     width: 10%;
     padding: 2%;
     margin: 1%;
     text-align: center; 
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    margin-right: 3%;
+    margin-top: -.3%;
+    margin-bottom: -.5%;
   }
+
   nav {
     font-family: 'Raleway', sans-serif;
     text-align:center;
     margin-right: 3%;
+    list-style: none;
+    margin-top: .5%;
   }
 
-a {
+  .nav-item{
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    list-style: none;
+  }
+  
+  a {
   color: black;
   font-weight: lighter;
-}
-a:hover {
+  }
+  a:hover {
   color:#F7BC54;
-  font-weight: bold;
-}
+  }
 
 /* about me HOMEPAGE */
 
@@ -276,8 +288,6 @@ h3{
  .digitalResume{
      margin-top: -5%;
      margin-left: 6.5%;
-     margin-bottom: 5%;
- 
  }
 
 button[type="resume"]{

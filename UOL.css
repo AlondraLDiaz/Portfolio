@@ -1,8 +1,4 @@
 /* nav css */
-.navbar{
-  margin-bottom: 3%;
-}
-
 .nav-logo {
     width: 10%;
     padding: 2%;
@@ -240,7 +236,8 @@
   
   .research-lists{
     text-align: left;
-    margin-left: 8%;
+    margin-left: 17%;
+    margin-right: 17%;
   }
   
 
