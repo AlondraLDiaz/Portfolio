@@ -164,9 +164,9 @@ h1 {
 background-color: #fce8bf;
 display: grid;
 flex-direction: column;
-padding: 140px;
+padding: 150px;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: 730px;
+grid-template-rows: 720px;
  }
 
  .profile{
@@ -252,6 +252,60 @@ p.hobbyList {
     box-shadow: 3px 3px 5px grey;
 
 }
+
+/* WHY UI/UX CSS */
+
+.explanation{
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -3%;
+}
+
+.why{
+margin-left: 27%;
+margin-right: 27%;
+text-align: center;
+justify-content: center;
+font-size: 35pt;
+margin-bottom: 5%;
+
+}
+
+h4{
+text-align: center;
+font-family: 'Extra Bold Raleway', sans-serif;
+font-weight: 10pt;
+font-size: 25pt;
+line-height: 21.5pt;
+letter-spacing: -.5pt;
+margin-top: 10%;
+margin-bottom: 8%;
+}
+
+
+p.ancedote{
+text-align: center;
+font-size: 21pt;
+font-family:'Light Cabin', sans-serif;
+line-height: 30pt;
+font-weight: lighter;
+word-spacing: 1pt;
+letter-spacing: .3pt;
+}
+
+
+h5{
+text-align: center;
+font-family: 'Extra Bold Raleway', sans-serif;
+font-weight: 10pt;
+font-size: 18pt;
+line-height: 21.5pt;
+letter-spacing: -.5pt;
+margin-top: 10%;
+margin-bottom: 25%;
+}
+
 
 /* skills css */
 
