@@ -98,9 +98,9 @@ h1 {
 }
 
 .about-pic{
-    height: 400px;
-    width: 600.96px;
-    padding: 8px;
+    height: 410px;
+    width: 570px;
+    padding: 15px;
 }
 
 /* orange block */
@@ -108,7 +108,7 @@ h1 {
 .block-yellow{
     background-color: #FFA505;
     height: 405px;
-    width: 580px;
+    width: 535px;
     transform: translate(16%, -113.5%);
     box-shadow: 3px 5px 5px grey;
 }
@@ -117,7 +117,7 @@ h1 {
 .block-orange{
     background-color: #FFE505;
     height: 395px;
-    width: 585px;
+    width: 540px;
     transform: translate(8%, -211%);
     box-shadow: 3px 5px 5px grey;
 }
@@ -166,12 +166,12 @@ display: grid;
 flex-direction: column;
 padding: 140px;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: 700px;
+grid-template-rows: 730px;
  }
 
  .profile{
      background-color:#fce8bf;
-     margin-top: -10%;
+     margin-top: -20%;
  }
 
 H2{
@@ -180,9 +180,20 @@ font-weight: 10pt;
 font-size: 20pt;
 line-height: 21.5pt;
 letter-spacing: -.5pt;
-margin-bottom: 4%;
+margin-bottom: 2%;
 
 }
+
+p.about-profile{
+    font-family: 'Cabin', sans-serif;
+    font-size: 14pt;
+    line-height: 21pt;
+    letter-spacing: .2pt;
+    word-spacing: .5pt;
+    margin-top: 2%;
+    margin-bottom: 3.5%;
+}
+
 
 .profileContent{
     font-family: 'Cabin', sans-serif;
@@ -197,7 +208,7 @@ margin-bottom: 4%;
 p.hobbyList {
     font-weight: lighter;
     font-family: 'Cabin', sans-serif;
-    font-size: 13.5pt;
+    font-size: 12pt;
     line-height: 21pt;
     text-align: left;
     justify-content: left;
